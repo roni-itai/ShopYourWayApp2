@@ -4,6 +4,7 @@ public class HelloWorld {
 		System.out.println("Make a change!");
 		String x = "ITAI IS THE TRUE Newbie!";
 		System.out.println(x);
+		System.out.println("זה כללי אני אמור לך");
 	}
 }
 
