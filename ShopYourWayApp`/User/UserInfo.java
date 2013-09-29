@@ -32,11 +32,10 @@ public class UserInfo {
 	
 	/**
 	 * This method returns all the pages that the user likes
-	 * @param UrlRelativePath
 	 * @return The likes as a JsonArray
 	 */
-	public JsonArray getLikesAsJson (String UrlRelativePath) {
-		JsonObject photosConnection = facebookClient.fetchObject(this.UserID + "/" + UrlRelativePath, JsonObject.class);
+	public JsonArray getLikesAsJson () {
+		JsonObject photosConnection = facebookClient.fetchObject(this.UserID + "/likes", JsonObject.class);
 		JsonArray likesArray = photosConnection.getJsonArray("data");
 		return likesArray;
 	}
