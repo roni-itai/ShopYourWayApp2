@@ -1,3 +1,5 @@
+/UrlUtils.class
+/package-info.class
 /DateUtils.class
 /InsightUtils$Period.class
 /InsightUtils.class
@@ -6,5 +8,3 @@
 /ReflectionUtils$FieldWithAnnotation.class
 /ReflectionUtils.class
 /StringUtils.class
-/UrlUtils.class
-/package-info.class

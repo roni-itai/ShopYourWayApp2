@@ -1,3 +1,13 @@
+/Facebook.class
+/FacebookClient$AccessToken.class
+/FacebookClient.class
+/JsonMapper$JsonMappingCompleted.class
+/JsonMapper.class
+/LegacyFacebookClient.class
+/Parameter.class
+/WebRequestor$Response.class
+/WebRequestor.class
+/package-info.class
 /BaseFacebookClient$DefaultLegacyFacebookExceptionMapper.class
 /BaseFacebookClient.class
 /BinaryAttachment.class
@@ -13,13 +23,3 @@
 /DefaultJsonMapper.class
 /DefaultLegacyFacebookClient.class
 /DefaultWebRequestor.class
-/Facebook.class
-/FacebookClient$AccessToken.class
-/FacebookClient.class
-/JsonMapper$JsonMappingCompleted.class
-/JsonMapper.class
-/LegacyFacebookClient.class
-/Parameter.class
-/WebRequestor$Response.class
-/WebRequestor.class
-/package-info.class
