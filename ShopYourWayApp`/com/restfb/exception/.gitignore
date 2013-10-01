@@ -1,0 +1,10 @@
+/FacebookException.class
+/FacebookExceptionMapper.class
+/FacebookGraphException.class
+/FacebookJsonMappingException.class
+/FacebookNetworkException.class
+/FacebookOAuthException.class
+/FacebookQueryParseException.class
+/FacebookResponseContentException.class
+/FacebookResponseStatusException.class
+/package-info.class
