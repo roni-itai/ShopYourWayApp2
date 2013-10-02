@@ -40,9 +40,4 @@ public class UserInfo {
 		return likesArray;
 	}
 	
-	public JsonArray getCover() {
-		JsonObject coverConnection = facebookClient.fetchObject(this.UserID + "/likes", JsonObject.class);
-		JsonArray coverArray = coverConnection.getJsonArray("data");
-		return coverArray;
-	}
 }
