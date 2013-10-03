@@ -1,12 +1,12 @@
 
 package User;
 
-import com.hp.gagawa.elements.Body;
-import com.hp.gagawa.elements.H1;
-import com.hp.gagawa.elements.Head;
-import com.hp.gagawa.elements.Html;
-import com.hp.gagawa.elements.Text;
-import com.hp.gagawa.elements.Title;
+import com.hp.gagawa.java.elements.Body;
+import com.hp.gagawa.java.elements.H1;
+import com.hp.gagawa.java.elements.Head;
+import com.hp.gagawa.java.elements.Html;
+import com.hp.gagawa.java.elements.Text;
+import com.hp.gagawa.java.elements.Title;
 
 /**
  * Uses Gagawa to build a very very simple web-page.
@@ -15,7 +15,7 @@ import com.hp.gagawa.elements.Title;
  * @author kolichko Mark Kolich
  *
  */
-public class SimpleGagawaExample {
+public class createHTML {
 
         /**
          * @param args
@@ -42,9 +42,5 @@ public class SimpleGagawaExample {
                 System.out.println( html.write() );
 
         }
-
-}
-
-public class createHTML {
 
 }
