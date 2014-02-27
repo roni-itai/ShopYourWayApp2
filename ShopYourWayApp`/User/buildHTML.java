@@ -40,7 +40,7 @@ public class buildHTML {
             body.setBgcolor("#F4F2FA");
             html.appendChild( body );
             H1 h1 = new H1();
-            UserInfo userInformation = new UserInfo("CAACEdEose0cBAOIGc59QJQeTlkhZCXLU7mZBg9ayvrpmh0xpsqxyx8l8jdi6LMeCZBIHbfBJhA3M5BCbpwm1ZBnACNyJDupHBcfF050jTGNOfhAd0bDBK2STbkNqbgb2GID3bcNhKwoMftdXfrFTyul4DLAi8o9hCBNGHWGZCN9qCpYslOpgm4WZCPIGekM44ZD"); 
+            UserInfo userInformation = new UserInfo("CAACEdEose0cBAJCcQKYt3xbuZBxy5wFZCAxUWvQaTcheqF95QppmTRiUKd2EFHmguBfb6wfJwnZBxfuNRAsAZBycwTzZAPZBZB3ufG5MMcZBtdTUtHHrkRurcRvokAUcZAmePd61V3kcEm1BkFJhvKR2etiuiSvRjacDagy90FDWLvYnByBTSLQPuylLbicyJ3x8ZD"); 
             JsonArray user = userInformation.getLikesAsJson();
             h1.appendChild( new Text("Page Likes of " + userInformation) );
             //Img image = new Img( "left", "2013-08-07_1332.png" );
@@ -74,7 +74,7 @@ public class buildHTML {
     		FileOutputStream fos = new FileOutputStream(file);
     		PrintStream ps = new PrintStream(fos);
     		System.setOut(ps);
-    		//System.out.println("OUT TXT");
+    		System.out.println("OUT TXT");
             System.out.println( html.write() );
             
     }
